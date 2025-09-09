@@ -1708,8 +1708,8 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 5.5em);
-		width: 55em;
+		max-width: calc(100% - 4.5em);
+		width: 45em;
 	}
 
 		.container.xsmall {
@@ -1786,7 +1786,7 @@ input, select, textarea {
 
 	header.major h2 {
 		color: #4acaa8;
-		font-size: 1.75em;
+		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
