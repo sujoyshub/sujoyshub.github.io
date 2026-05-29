@@ -22,12 +22,16 @@ document.querySelectorAll('.r').forEach(el => io.observe(el));
 const testimonials = [
   {
     q: "Sujoy naturally leads by example — his leadership and ability to guide make a lasting impact on everyone around him. He not only delivers results but genuinely invests in the growth of his team and colleagues.",
-    by: "— LinkedIn Recommendation"
+    by: "— Mentee's Testimonials"
   },
   {
     q: "Sujoy possesses a unique combination of kindness, enthusiasm, and passion that inspires his team to deliver their best. He is an incredible mentor committed to the growth and development of every person he works with.",
-    by: "— LinkedIn Recommendation"
-  }
+    by: "— Mentee's Testimonials"
+  },
+  {
+    q: "Sujoy has a unique ability to simplify complex challenges and provide practical, actionable guidance. His mentorship has helped me strengthen both my technical and leadership capabilities. He invests in people selflessly and inspires them to unlock their full potential.",
+    by: "— Mentee's Testimonials"
+  },
 ];
 let tIdx = 0;
 const tq   = document.getElementById('tq');
