@@ -7,9 +7,15 @@ window.addEventListener('scroll', () => {
 /* ── hamburger ──────────────────────────────────────────── */
 const ham = document.getElementById('ham');
 const drawer = document.getElementById('nav-drawer');
-ham.addEventListener('click', () => drawer.classList.toggle('open'));
+ham.addEventListener('click', () => {
+  drawer.classList.toggle('open');
+  ham.classList.toggle('open');
+});
 document.querySelectorAll('.drawer-link').forEach(a => {
-  a.addEventListener('click', () => drawer.classList.remove('open'));
+  a.addEventListener('click', () => {
+    drawer.classList.remove('open');
+    ham.classList.remove('open');
+  });
 });
 
 /* ── scroll reveal ──────────────────────────────────────── */
